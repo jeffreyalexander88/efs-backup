@@ -258,6 +258,7 @@ Resources:
       SecurityGroups:
         - !Sub ${EFSSecurityGroup}
       InstanceType: !FindInMap [Map, !Ref "AWS::Region", !Ref InstanceSize]
+      KeyName: "daqriit"
       IamInstanceProfile: !Sub ${InstanceProfile}
       UserData:
         # download and run efs-backup script
