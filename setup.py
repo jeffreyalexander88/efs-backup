@@ -15,7 +15,7 @@ setup(
     version='1.0.0',
     description='AWS EFS to AWS EFS backup',
     author='Lalit G.',
-    url='https://github.com/awslabs/aws-efs-backup',
+    url='https://github.com/jeffreyalexander88/efs-backup',
     packages=find_packages(exclude=("tests", "tests.*")),
     license="Amazon",
     zip_safe=False,
